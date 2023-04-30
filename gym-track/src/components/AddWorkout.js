@@ -1,19 +1,19 @@
 import React from 'react';
 
-function AddWorkout() {
-  const handleAddWorkout = () => {
-    // Perform the action to add a workout
-    // Example: Send a request to the server, update the database, etc.
-    console.log('Adding a workout...');
-  };
+import './AddWorkout.css'
+import { useState } from 'react';
 
-  return (
-    <div className="container">
-      <button className="btn" onClick={handleAddWorkout}>
-        Create Workout Plan
-      </button>
-    </div>
-  );
+function AddWorkout(props) { 
+
+  return (props.trigger)? (
+    <div className="AddWorkout">
+      <div className="AddWorkout-inner">
+        <button className="closebutton">close</button>
+        {props.children}
+        </div>
+        </div>
+  ) : "";
+      
 }
 
 export default AddWorkout;

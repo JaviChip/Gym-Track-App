@@ -1,18 +1,31 @@
-.container {
-    background-color: gray;
-    padding: 20px;
+.AddWorkout
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0,0,0,0.2);
+
     display: flex;
-    align-items: center;
     justify-content: center;
-    /* height: 200px; */ /* Remove the fixed height */
-  }
-  
-  .btn {
-    background-color: darkgray;
-    color: white;
-    padding: 100px 60px; /* Adjust the padding to increase the button's size */
-    font-size: x-large;
-    border: none;
-    cursor: pointer;
-  }
+    align-items: center;
+
+}
+
+.AddWorkout-inner
+{
+    position: relative; 
+    padding: 32px;
+    width: 100px;
+    max-width: 640px;
+    background-color: #FFF;
+}
+
+.AddWorkout-inner .closebutton
+{
+  position: absolute;
+}
+
   
