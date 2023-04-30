@@ -1,0 +1,30 @@
+{
+  "name": "gym-track",
+  "version": "1.0.0",
+  "description": "See planned workouts daily with exercises and set/rep ranges. Includes a built in timer when starting the exercise ",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaviChip/Gym-Track-App.git"
+  },
+  "keywords": [
+    "fitness\""
+  ],
+  "author": "[",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaviChip/Gym-Track-App/issues"
+  },
+  "homepage": "https://github.com/JaviChip/Gym-Track-App#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
