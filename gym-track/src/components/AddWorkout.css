@@ -1,0 +1,18 @@
+.container {
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 200px; */ /* Remove the fixed height */
+  }
+  
+  .btn {
+    background-color: darkgray;
+    color: white;
+    padding: 100px 60px; /* Adjust the padding to increase the button's size */
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+  }
+  
