@@ -1,12 +1,8 @@
 import React from 'react';
 import './SquareContainer.css';
 
-function SquareContainer() {
-  return (
-    <div className="square-container">
-      {/* Add more content or components here */}
-    </div>
-  );
+function SquareContainer({ children }) {
+  return <div className="square-container">{children}</div>;
 }
 
 export default SquareContainer;
