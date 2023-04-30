@@ -1,0 +1,9 @@
+.square-container {
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    background-color: #47444412;
+    margin: 0 auto;
+    position: relative;
+  }
+  
